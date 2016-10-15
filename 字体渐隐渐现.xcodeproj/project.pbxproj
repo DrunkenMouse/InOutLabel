@@ -15,6 +15,7 @@
 		167810B81D9A548300F93446 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 167810B61D9A548300F93446 /* LaunchScreen.storyboard */; };
 		167810C31D9A548300F93446 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 167810C21D9A548300F93446 /* ______Tests.m */; };
 		167810CE1D9A548400F93446 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 167810CD1D9A548400F93446 /* ______UITests.m */; };
+		167810DD1D9A552100F93446 /* ADShineLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 167810DC1D9A552100F93446 /* ADShineLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		167810C91D9A548400F93446 /* 字体渐隐渐现UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "字体渐隐渐现UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		167810CD1D9A548400F93446 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
 		167810CF1D9A548400F93446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		167810DB1D9A552000F93446 /* ADShineLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADShineLabel.h; sourceTree = "<group>"; };
+		167810DC1D9A552100F93446 /* ADShineLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADShineLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				167810B61D9A548300F93446 /* LaunchScreen.storyboard */,
 				167810B91D9A548300F93446 /* Info.plist */,
 				167810A81D9A548300F93446 /* Supporting Files */,
+				167810DB1D9A552000F93446 /* ADShineLabel.h */,
+				167810DC1D9A552100F93446 /* ADShineLabel.m */,
 			);
 			path = "字体渐隐渐现";
 			sourceTree = "<group>";
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				167810B01D9A548300F93446 /* ViewController.m in Sources */,
+				167810DD1D9A552100F93446 /* ADShineLabel.m in Sources */,
 				167810AD1D9A548300F93446 /* AppDelegate.m in Sources */,
 				167810AA1D9A548300F93446 /* main.m in Sources */,
 			);
